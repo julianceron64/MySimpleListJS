@@ -63,7 +63,7 @@ export default class SimpleList{
         let current = this.head;
         let result = '';
         while (current !== null) {
-            result += current.data + ' -> ';
+            result += current.data + ' , ';
             current = current.next;
         }
         result += 'null';
